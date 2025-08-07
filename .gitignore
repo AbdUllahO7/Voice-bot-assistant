@@ -1,0 +1,47 @@
+# Configuration files with API keys - DO NOT COMMIT
+config.py
+*.json
+service-account-key.json
+
+# Temporary audio files
+temp_*.mp3
+temp_*.wav
+*.mp3
+*.wav
+
+# Order data
+orders/
+*.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+
+# Virtual environment
+venv/
+env/
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Package files
+*.egg-info/
+dist/
+build/
